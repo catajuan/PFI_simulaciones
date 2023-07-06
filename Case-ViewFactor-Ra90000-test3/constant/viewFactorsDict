@@ -1,0 +1,60 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      radiationProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+maxDynListLength          10000000;
+writeViewFactorMatrix     true;
+writeFacesAgglomeration   true;
+writePatchViewFactors     false;  //true;
+//dumpRays                  true;
+
+frontAndBack
+{   
+    nFacesInCoarsestLevel        10;
+    featureAngle                 10; 
+}
+
+right
+{
+ 
+    nFacesInCoarsestLevel     1000;
+    featureAngle              10;
+}
+
+left
+{
+    
+    nFacesInCoarsestLevel     1000;
+    featureAngle              10;
+}
+
+hot
+{
+    
+    nFacesInCoarsestLevel     1000;
+    featureAngle              10;
+}
+
+cold
+{
+    
+    nFacesInCoarsestLevel     1000;
+    featureAngle              10;
+}
+
+// ************************************************************************* //
+
+
