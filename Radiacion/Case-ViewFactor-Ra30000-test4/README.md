@@ -5,7 +5,6 @@ This is the case of a 2D thermally-driven square cavity with gray and diffuse wa
 
 
 ## Running case
-
 The commands to run the case are:
 
 1) faceAgglomerate
@@ -38,10 +37,10 @@ And repeat the commands:
 
 blocks
 (
-    hex (0 1 2 3 4 5 6 7) (80 80 1) 
+    hex (0 1 2 3 4 5 6 7) (100 100 1) 
     simpleGrading (
-    			( (0.5 0.5 8) (0.5 0.5 0.125) )
-   			( (0.5 0.5 8) (0.5 0.5 0.125) ) 
+    			( (0.5 0.5 16) (0.5 0.5 0.0625) )
+   			( (0.5 0.5 16) (0.5 0.5 0.0625) ) 
     			1
     		  )
 );
