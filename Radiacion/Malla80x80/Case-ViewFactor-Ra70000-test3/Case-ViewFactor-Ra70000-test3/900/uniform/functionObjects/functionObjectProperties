@@ -1,0 +1,42 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2206                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       dictionary;
+    location    "900/uniform/functionObjects";
+    object      functionObjectProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+cdf7e925f5746741c316f5fbcf39ad0dfca90775
+{
+    wallHeatFlux1
+    {
+        scalar
+        {
+            min(cold)       -243.7635983993791;
+            max(cold)       -133.7194535026256;
+            int(cold)       -1.842239635355789;
+            min(hot)        136.6383885365416;
+            max(hot)        240.8191321781706;
+            int(hot)        1.848277631263375;
+            min(right)      -7.070255492180877e-11;
+            max(right)      -2.780353725029272e-11;
+            int(right)      -4.994503783743371e-13;
+            min(left)       2.573052881871263e-11;
+            max(left)       7.146283564907208e-11;
+            int(left)       4.884909967865597e-13;
+        }
+    }
+}
+
+
+// ************************************************************************* //
